@@ -1,0 +1,101 @@
+body {
+  margin: 0;
+  max-width: 1200px;
+}
+
+html,
+body {
+  box-sizing: border-box;
+  height: 100%;
+  padding: 10px;
+  background-color: #979292;
+}
+
+.container > div {
+  padding: 10px;
+  text-align: center;
+  font-size: 2.2em;
+  color: #000000;
+  background-color: #c57373;
+}
+
+.container > div:nth-child(1) {
+  background-color: #232222;
+}
+
+.container > div:nth-child(2) {
+  background-color: #72534F;
+}
+
+.container > div:nth-child(3) {
+  background-color: #251C1B;
+}
+
+.fondo1 {
+  background-color: #d16458;
+  /* margin: 5px; */
+}
+.fondo2 {
+  background-color: #d1c958;
+  /* margin: 5px; */
+}
+.fondo3 {
+  background-color: #9b8939;
+  /* margin: 5px; */
+}
+
+.container2 > div {
+  padding: 5px;
+  text-align: center;
+  font-size: 2.2em;
+  color: #000000;
+  /* background-color: #9E2020; */
+}
+
+.container3 > div {
+  padding: 5px;
+  text-align: center;
+  font-size: 1.8em;
+  color: #000000;
+  background-color: #d6e41a;
+}
+
+/* Media Query for Mobile Devices */
+@media (max-width: 480px) {
+  body {
+    background-color: red;
+  }
+  .container2 {
+    flex-wrap: wrap;
+  }
+  .container {
+    flex-wrap: wrap;
+  }
+  .c4{
+    flex-wrap:wrap;
+  }
+}
+
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width: 481px) and (max-width: 767px) {
+  body {
+    background-color: yellow;
+  }
+
+  .container2 {
+    flex-wrap: wrap;
+  }
+  .container {
+    flex-wrap: wrap;
+  }
+  .c4{
+    flex-wrap:wrap;
+  }
+}
+
+/* Media Query for Laptops and Desktops */
+@media (min-width: 767px) and (max-width: 1280px) {
+  body {
+    background-color: green;
+  }
+}
