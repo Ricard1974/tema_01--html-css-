@@ -15,25 +15,21 @@
 }
 
 .c1 {
-  flex: 1;
+  flex: 30%;
 }
 
 .c2 {
-  flex: 3;
+  flex: 50%;
 }
 .c3 {
-  flex: 1;
+  flex: 30%;
 }
 
 .c6{
     display: flex;
-    /* flex-wrap: wrap; */
-    /* flex: auto; */
 }
 .c7{
     display: flex;
-    /* flex-wrap: wrap; */
-    /* flex: auto; */
 }
 
 .c4 {
@@ -45,7 +41,6 @@
   flex: 30%;
   background-color: #D158AD;
 
-  /* margin: 5px; */
 }
 
 .c12 {
