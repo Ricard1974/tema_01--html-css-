@@ -45,7 +45,7 @@ body {
 }
 
 .container2 > div {
-  padding: 5px;
+  padding: 10px;
   text-align: center;
   font-size: 2.2em;
   color: #000000;
@@ -53,7 +53,7 @@ body {
 }
 
 .container3 > div {
-  padding: 5px;
+  padding: 10px;
   text-align: center;
   font-size: 2.2em;
   color: #000000;
@@ -71,8 +71,6 @@ body {
   .container {
     flex-wrap: wrap;
   }
-
-
   .c1{
     flex-wrap:wrap;
     flex: 100%;
@@ -87,13 +85,14 @@ body {
   }
   .c4{
     flex-wrap:wrap;
+   
   }
   .c5{
     flex-wrap:wrap;
   }
-  
   .c6{
     flex-wrap:wrap;
+    
   }
   .c7{
     flex-wrap:wrap;
@@ -130,16 +129,7 @@ body {
     flex-wrap:wrap;
     flex: 100%;
   }
-  .c5{
-    flex-wrap:wrap;
-    flex: 100%;
-  }
-  .c6{
-    flex-wrap:wrap;
-  }
-  .c7{
-    flex-wrap:wrap;
-  }
+
 }
 
 /* Media Query for Laptops and Desktops */

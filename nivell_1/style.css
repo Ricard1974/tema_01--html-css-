@@ -1,28 +1,28 @@
 .container {
-  border: 10px solid #000000;
+  border: 1px solid #000000;
   display: flex;
   margin-top: 10px;
 }
 .container2 {
-  border: 10px solid #000000;
+  border: 1px solid #000000;
   display: flex;
   margin-top: 10px;
 }
 .container3 {
-  border: 10px solid #000000;
+  border: 1px solid #000000;
   display: flex;
   margin-top: 10px;
 }
 
 .c1 {
-  flex: 30%;
+  flex: 33%;
 }
 
 .c2 {
   flex: 50%;
 }
 .c3 {
-  flex: 30%;
+  flex: 33%;
 }
 
 .c6{
