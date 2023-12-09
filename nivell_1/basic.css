@@ -24,11 +24,11 @@ body {
 }
 
 .container > div:nth-child(2) {
-  background-color: #72534F;
+  background-color: #72534f;
 }
 
 .container > div:nth-child(3) {
-  background-color: #251C1B;
+  background-color: #251c1b;
 }
 
 .fondo1 {
@@ -71,31 +71,29 @@ body {
   .container {
     flex-wrap: wrap;
   }
-  .c1{
-    flex-wrap:wrap;
+  .c1 {
+    flex-wrap: wrap;
     flex: 100%;
   }
-  .c2{
-    flex-wrap:wrap;
+  .c2 {
+    flex-wrap: wrap;
     flex: 100%;
   }
-  .c3{
-    flex-wrap:wrap;
+  .c3 {
+    flex-wrap: wrap;
     flex: 100%;
   }
-  .c4{
-    flex-wrap:wrap;
-   
+  .c4 {
+    flex-wrap: wrap;
   }
-  .c5{
-    flex-wrap:wrap;
+  .c5 {
+    flex-wrap: wrap;
   }
-  .c6{
-    flex-wrap:wrap;
-    
+  .c6 {
+    flex-wrap: wrap;
   }
-  .c7{
-    flex-wrap:wrap;
+  .c7 {
+    flex-wrap: wrap;
   }
 }
 
@@ -113,23 +111,22 @@ body {
     flex-wrap: wrap;
   }
 
-  .c1{
-    flex-wrap:wrap;
+  .c1 {
+    flex-wrap: wrap;
     flex: 100%;
   }
-  .c2{
-    flex-wrap:wrap;
+  .c2 {
+    flex-wrap: wrap;
     flex: 100%;
   }
-  .c3{
-    flex-wrap:wrap;
+  .c3 {
+    flex-wrap: wrap;
     flex: 100%;
   }
-  .c4{
-    flex-wrap:wrap;
+  .c4 {
+    flex-wrap: wrap;
     flex: 100%;
   }
-
 }
 
 /* Media Query for Laptops and Desktops */
